@@ -1,0 +1,13 @@
+.logo {
+  background-image: url("../../images/logo_size_l.svg");
+  width: 190px;
+  height: 44px;
+}
+
+@media screen and (max-width: 767px) {
+  .logo {
+    background-image: url("../../images/logo_size_s.svg");
+    width: 156px;
+    height: 36px;
+  }
+}

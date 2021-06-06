@@ -1,0 +1,13 @@
+.cover__background {
+  width: 100%;
+  min-height: 740px;
+  background-image: url("../../../images/cover-route-66.jpg");
+  background-position: center;
+  position: relative;
+}
+@media screen and (max-width: 767px) {
+  .cover__background {
+    min-width: 320px;
+    min-height: 200px;
+  }
+}

@@ -1,0 +1,12 @@
+.place__image {
+  min-width: 250px;
+  width: 100%;
+  min-height: 250px;
+}
+@media screen and (max-width: 767px) {
+  .place__image {
+    margin-top: 30px;
+    min-width: 300px;
+    min-height: 300px;
+  }
+}
