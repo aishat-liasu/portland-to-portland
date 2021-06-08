@@ -1,14 +1,30 @@
 .cover__overlay {
   text-decoration: none;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
   width: 100%;
   height: 100%;
-  position: absolute;
+  min-height: 640px;
+  max-height: 740px;
   background: rgba(42, 44, 47, 0.3);
 }
 .cover__overlay:hover {
   background: rgba(42, 44, 47, 0.8);
+}
+
+@media screen and (max-width: 1023px) {
+  .cover__overlay {
+    min-height: 480px;
+    max-height: 480px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .cover__overlay {
+    min-width: 250px;
+    max-height: 250px;
+    min-height: 200px;
+  }
 }

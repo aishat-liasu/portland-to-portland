@@ -1,13 +1,26 @@
 .cover__background {
   width: 100%;
-  min-height: 740px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 640px;
+  max-height: 740px;
   background-image: url("../../../images/cover-route-66.jpg");
   background-position: center;
-  position: relative;
+  background-size: cover;
 }
-@media screen and (max-width: 767px) {
+
+@media screen and (max-width: 1023px) {
   .cover__background {
-    min-width: 320px;
+    min-height: 480px;
+    max-height: 480px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .cover__background {
+    min-width: 250px;
+    max-height: 250px;
     min-height: 200px;
   }
 }

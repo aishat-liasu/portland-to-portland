@@ -1,7 +1,7 @@
 .place {
   margin-top: 80px;
   display: grid;
-  grid-template-columns: repeat(2, minmax(450px, 50%));
+  grid-template-columns: minmax(300px, 48%) minmax(300px, 52%);
   column-gap: 40px;
   row-gap: 48px;
 }
@@ -10,13 +10,11 @@
 }
 @media (min-width: 1024px) and (max-width: 1279px) {
   .place {
-    grid-template-columns: repeat(2, minmax(400px, 50%));
     column-gap: 32px;
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
   .place {
-    grid-template-columns: repeat(2, minmax(300px, 50%));
     column-gap: 28px;
   }
 }

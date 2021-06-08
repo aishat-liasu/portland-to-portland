@@ -1,8 +1,8 @@
 .footer {
   padding: 92px 48px 24px;
   display: flex;
-  width: 100%;
   justify-content: space-between;
+  max-width: 1280px;
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
