@@ -1,5 +1,7 @@
 # From Portland to Portland
 
+![Desktop View](https://github.com/aishat-liasu/web_project_3/blob/main/images/website-desktop-view.png)
+
 **Intro**
 
 The website describes an epic bike journey from Portland, Maine to Portland, Oregon. It also includes popular locations one might wish to see during the journey. The website is fully responsive and it was built using **HTML5** and **CSS3**.
