@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/imperi18/test1.imperialvalues.com.ng
+    - /bin/cp index.html $DEPLOYPATH
